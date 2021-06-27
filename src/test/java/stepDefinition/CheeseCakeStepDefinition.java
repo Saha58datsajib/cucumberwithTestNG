@@ -22,7 +22,7 @@ public class CheeseCakeStepDefinition {
 	@Given("^Navigate to given URL$")
 	public void Navigate_to_given_url() throws Throwable{
 		
-		System.setProperty("webdriver.chrome.driver", "C:/Fahim Project/CheeseCakeFactory/src/test/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sahad\\Music\\phytonproject\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.thecheesecakefactory.com/");
 		
@@ -68,6 +68,14 @@ public class CheeseCakeStepDefinition {
 		driver.findElement(By.xpath("//*[@href='/menu/desserts/']")).click();
 		
 	}
+	
+	@Then("^customer choose the desert$")
+	public void customer_choose_the_desert(){
+		driver.findElement(By.xpath("//*[@href='/menu/desserts/']")).click();
+		
+	}
+	
+	
 
 
 

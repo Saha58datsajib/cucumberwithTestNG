@@ -20,7 +20,7 @@ public class CheeseCakeFactorySmokeTest {
 
 	@Before
 	public void initializeBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:/Fahim Project/CheeseCakeFactory/src/test/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sahad\\Music\\phytonproject\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.thecheesecakefactory.com/");
 		

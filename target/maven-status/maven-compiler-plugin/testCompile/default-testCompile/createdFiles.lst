@@ -1,6 +1,5 @@
 CheeseCakeBDD\cheeseCakeRunner.class
 stepDefinition\CheeseCakeStepDefinition.class
+utilities\Screenshot.class
 cheeseCakeFactorySmoke\CheeseCakeFactorySmokeTest.class
-cheeseCakeFactorySmoke\juniorCheeseCake.class
 utilities\dataReader.class
-cheeseCakeFactorySmoke\JuniorBasic.class
