@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git repo & clean') {
             steps {
-              // bat "rmdir  /s /q cucumberwithTestNG"
+                bat "rmdir  /s /q cucumberwithTestNG"
                 bat "git clone https://github.com/Saha58datsajib/cucumberwithTestNG.git"
                 bat "mvn clean -f cucumberwithTestNG"
             }
